@@ -53,7 +53,7 @@ class MainScreen(QMainWindow):
 
         info = c.fetchall()
         
-
+        # cart curt
         for i in range(len(info)):
             tempbutton = QPushButton(self)
             tempbutton.setGeometry(550, 440 + i*65, 1111, 65)
