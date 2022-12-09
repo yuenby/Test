@@ -19,7 +19,7 @@ class MainScreen(QMainWindow):
         self.setWindowTitle("Besinerji")
         
     def initUI(self):
-        loadUi("mainWindow.ui", self)
+        loadUi("C:/Users/dor_b/OneDrive/Masaüstü/besinerji/mainWindow.ui", self)
 
         self.showMaximized()
         self.stackedWidget.setCurrentIndex(0)
